@@ -4,7 +4,6 @@ print('#######################################################')
 print('TEST Lecturas 1')
 from lecturas.lecturas import aparicionPalabra
 cad = 'salud'
-
 resultado = aparicionPalabra('archivo_palabras.txt')
 print(f"La palabra {cad} aparece {resultado} veces.")
 print(' ')
@@ -18,7 +17,6 @@ resultado, lineas = lineas_con_palabra('archivo_palabras.txt')
 print('Las líneas en las que aparece', cad ,' son:')
 for linea in lineas:
     print(linea)
-
 print(' ')
 
 print('#######################################################')
