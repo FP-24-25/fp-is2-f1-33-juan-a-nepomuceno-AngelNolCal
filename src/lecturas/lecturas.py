@@ -82,5 +82,3 @@ def longitud_promedio_lineas(file_path: str) -> Optional[float]:
         return 0.0
 
 
-
-

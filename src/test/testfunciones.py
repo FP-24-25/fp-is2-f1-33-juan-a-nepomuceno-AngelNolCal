@@ -27,8 +27,8 @@ print('#######################################################')
 print('TEST 3')
 from funciones.funciones import binomial
 
-n = 6
-k = 2
+n = 4
+k = 3
 resultado = binomial(n, k)
 print(f"El número combinatorio C({n}, {k}) es: {resultado}")
 
