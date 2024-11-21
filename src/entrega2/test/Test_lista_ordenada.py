@@ -5,6 +5,7 @@ Created on 10 nov 2024
 '''
 from entrega2.tipos.Lista_ordenada import ListaOrdenada
 
+
 def test_lista_ordenada():
     print("TEST DE LISTA ORDENADA:")
     print("################################################")
